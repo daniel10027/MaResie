@@ -1,4 +1,14 @@
 {
     "prisma-smart-formatter.typescript.defaultFormatter": "vscode.typescript-language-features",
-    "prisma-smart-formatter.typescriptreact.defaultFormatter": "eternalphane.tsfmt-vscode"
+    "prisma-smart-formatter.typescriptreact.defaultFormatter": "eternalphane.tsfmt-vscode",
+    "WillLuke.nextjs.addTypesOnSave": true,
+    "WillLuke.nextjs.hasPrompted": true,
+    "cSpell.words": [
+        "erreur",
+        "Favorited",
+        "Individuel",
+        "Invalide",
+        "reussie",
+        "survenue"
+    ]
 }
