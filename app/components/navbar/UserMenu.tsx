@@ -11,6 +11,7 @@ import useRentModal from '@/app/hooks/useRentModal';
 import { signOut } from 'next-auth/react';
 import { SafeUser } from '@/app/types';
 import RentModal from '../modals/RentModal';
+import { useRouter } from 'next/navigation';
 
 
 interface UserMenuPropos{
@@ -21,6 +22,7 @@ const UserMenu: React.FC<UserMenuPropos> = ({
     currentUser
 }) =>{
 
+    const router = useRouter();
     const registerModal = useRegisterModal();
     const loginModal = useLoginModal();
     const rentModal = useRentModal();
@@ -59,7 +61,7 @@ const onRent = useCallback(()=>{
                         {currentUser ? 
                         (
                             <>
-                            <MenuItem onClick={()=>{}} label='Mes excursions' />
+                            <MenuItem onClick={()=> router.push("/trips") } label='Mes Reservations' />
                             <MenuItem onClick={()=>{}} label='Mes favoris' />
                             <MenuItem onClick={()=>{}} label='Mes réservations' />
                             <MenuItem onClick={()=>{}} label='Mes propriétés' />
