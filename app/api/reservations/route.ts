@@ -13,7 +13,7 @@ export async function POST(
             return NextResponse.error();
         }
 
-        const body = await request.json()
+        const body = await request.json();
 
         const {
             listingId,

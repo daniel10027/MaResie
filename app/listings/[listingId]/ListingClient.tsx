@@ -75,8 +75,7 @@ const ListingClient:React.FC<ListingClientProps> = ({
             .then(() => {
                 toast.success('Reservation enregistree !')
                 setDateRange(initialDateRange);
-                // rediriger vers les Trips
-                router.refresh();
+                router.push('/trips');
 
             })
             .catch(() => {
