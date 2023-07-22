@@ -13,80 +13,80 @@ import { usePathname, useSearchParams } from "next/navigation";
 
 export const categories = [
     {
-        label : 'Beach', 
+        label : 'Plage', 
         icon: TbBeach,
-        description : "This property is close to the beach !"
+        description : "Cette propriété est proche de la plage !"
     },
     {
-        label : 'Windmills',
+        label : 'Moulins à vent',
         icon: GiWindmill,
-        description : "This property is close to the Windmills !"
+        description : "Cette propriété est proche des moulins à vent !"
     },
     {
-        label : 'Modern',
+        label : 'Moderne',
         icon: MdOutlineVilla,
-        description : "This property is Modern !"
+        description : "Cette propriété est Moderne !"
     },
     {
-        label : 'Countryside',
+        label : 'Campagne',
         icon: TbMountain,
-        description : "This property is in the countrySide !"
+        description : "Cette propriété est à la campagne !"
     }
     ,
     {
-        label : 'Pools',
+        label : 'Piscines',
         icon: TbPool,
-        description : "This property has a pool !"
+        description : "Cette propriété a une piscine !"
     },
     {
-        label : 'Islands',
+        label : 'îles',
         icon:  GiIsland,
-        description : "This property is on Island !"
+        description : "Cette propriété est sur  une île !"
     },
     {
-        label : 'Lake',
+        label : 'Lac',
         icon:  GiBoatFishing,
-        description : "This property is close to a Lake !"
+        description : "Cette propriété est proche d'un lac !"
     },
     {
-        label : 'Skiing',
+        label : 'Ski',
         icon:  FaSkiing,
-        description : "This property has Skiing activities !"
+        description : "Cette propriété a des activités de ski !"
     },
     {
-        label : 'Castles',
+        label : 'Châteaux',
         icon:  GiCastle,
-        description : "This property is in a castle !"
+        description : "Cette propriété est dans un château !"
     },
     {
         label : 'Camping',
         icon:  GiForestCamp,
-        description : "This property has camping activities !"
+        description : "Cette propriété a des activités de camping !"
     },
     {
-        label : 'Artic',
+        label : 'Arctique',
         icon:  BsSnow  ,
-        description : "This property has ARTIC activities !"
+        description : "Cette propriété a des activités ARTIC !"
     },
     {
-        label : 'Cave',
+        label : 'Grotte',
         icon:  GiCaveEntrance  ,
-        description : "This property has cave activities !"
+        description : "Cette propriété a des activités de grotte !"
     },
     {
-        label : 'Desert',
+        label : 'Désert',
         icon:  GiCactus  ,
-        description : "This property has desert activities !"
+        description : "Cette propriété a des activités dans le désert !"
     },
     {
-        label : 'Barns',
+        label : 'Granges',
         icon:  GiBarn  ,
-        description : "This property is in the Barn  !"
+        description : "Cette propriété est dans une Grange !"
     },
     {
         label : 'Lux',
         icon:  IoDiamond  ,
-        description : "This property is Luxurious !"
+        description : "Cette propriété est luxueuse!"
     }
 ]
 
