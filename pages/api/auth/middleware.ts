@@ -5,6 +5,7 @@ export const config = {
         "/trips/",
         "/reservations",
         "/favorites",
-        "/properties"
+        "/properties",
+        "/api/auth/:path*"
     ]
 };
