@@ -61,10 +61,10 @@ const onRent = useCallback(()=>{
                         {currentUser ? 
                         (
                             <>
-                            <MenuItem onClick={()=> router.push("/trips") } label='Mes Reservations' />
-                            <MenuItem onClick={()=>{}} label='Mes favoris' />
+                            <MenuItem onClick={()=> router.push("/trips") } label='Mes Voyages' />
+                            <MenuItem onClick={()=> router.push("/favorites") } label='Mes favoris' />
                             <MenuItem onClick={()=> router.push("/reservations")}  label='Reservations' />
-                            <MenuItem onClick={()=>{}} label='Mes propriétés' />
+                            <MenuItem onClick={()=> router.push("/properties")} label='Mes propriétés' />
                             <MenuItem onClick={rentModal.onOpen} label='Mettre mon logement sur MaResie' />
                             <hr />
                             <MenuItem onClick={()=>{signOut();}} label='Se déconnecter' />

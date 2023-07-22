@@ -44,8 +44,12 @@ const RegisterModal = () => {
         setIsLoading(true);
         axios.post('/api/register',data)
         .then(() => {
+            
             registerModal.onClose();
+            
             toast.success('Félicitation vous êtes maintenant membre de MaResi');
+
+            loginModal.onOpen();
         })
         .catch((error) => {
                toast.error('Une erreur est survenue');
