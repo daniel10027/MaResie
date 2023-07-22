@@ -1,5 +1,7 @@
 ## Full Stack Next.js 13 Residence rental application App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
 
+<p align="center"><img src="https://github.com/daniel10027/MaResie/blob/main/image.jpeg"></p>
+
 ### Features:
 
 - Tailwind design
