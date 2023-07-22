@@ -61,7 +61,7 @@ export const authOptions: AuthOptions = {
     session : {
         strategy : "jwt"
     }, 
-    secret : "NEXTAUTH_SECRET",
+    secret : process.env.SECRET as string,
 }
 
 export default NextAuth(authOptions);
